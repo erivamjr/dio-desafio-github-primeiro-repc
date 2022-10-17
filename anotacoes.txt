@@ -1,0 +1,6 @@
+Link para download do Git https://git-scm.com/download/win
+
+O Git é um terminal extendido para otimizar o uso do Git.
+
+Para adicionar ao stage usar git add .
+Para adicionaro ao palco usar o git commit -m "message"
