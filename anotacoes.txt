@@ -2,9 +2,9 @@ Link para download do Git https://git-scm.com/download/win
 
 O Git é um terminal extendido para otimizar o uso do Git.
 
-Para adicionar ao stage usar git add .
-Para adicionaro ao palco usar o git commit -m "message"
 
+
+PASSO 1
 
 Após criar a conta no GitHub entrar na 
 - clicar na aba de "repositories"
@@ -17,3 +17,28 @@ Após criar a conta no GitHub entrar na
 - verificar se já quer acrescentar o gitignore ou fazer depois
 - verificar se quer colocar alguma licença
 Após verificado os campos acima clicar em "Create Repository"
+
+PASSO 2
+
+após isso ir até o link do repositori criado e seguir as instruções dado pelo GitHub
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:erivamjr/[NOME DO REPOSITORIO].git
+git push -u origin main
+
+ou enviar de um repositorio existente pelo comando
+
+git remote add origin git@github.com:erivamjr/[NOME DO REPOSITORIO].git
+git branch -M main
+git push -u origin main
+
+
+PASSO 3
+
+Para adicionar ao stage usar git add .
+Para adicionaro ao palco usar o git commit -m "message"
+Para enviar para o local remoto dar o comando git push -u origem [nome da branch](na primeira vez)
+Para enviar após ter enviado na primeira vez inserir apenas o comando git push
