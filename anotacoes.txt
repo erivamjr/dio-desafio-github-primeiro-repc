@@ -4,3 +4,16 @@ O Git é um terminal extendido para otimizar o uso do Git.
 
 Para adicionar ao stage usar git add .
 Para adicionaro ao palco usar o git commit -m "message"
+
+
+Após criar a conta no GitHub entrar na 
+- clicar na aba de "repositories"
+- clicar em "new"
+- selecionar seu usuario com campo "Owner"
+- colocar o nome do seu repositorio no campo "Repository name"
+- inserir uma breve descrição
+- selecionar se é publico ou privado
+- selecionar o checkbox caso queirar criar o README logo no inicio
+- verificar se já quer acrescentar o gitignore ou fazer depois
+- verificar se quer colocar alguma licença
+Após verificado os campos acima clicar em "Create Repository"
